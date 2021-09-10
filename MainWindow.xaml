@@ -1,0 +1,56 @@
+﻿<Window x:Class="RegistrarRolesWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RegistrarRolesWpf"
+        mc:Ignorable="d"
+        Title="Registro de Roles" Height="400" Width="500">
+    <Grid>
+        <StackPanel Orientation="Vertical" Margin="10">
+            <StackPanel Orientation="Vertical">
+                <Label Content="Rol Id: "/>
+                <StackPanel Orientation="Horizontal" >
+                    <TextBox x:Name="RolesIdTextBox" Width="110" HorizontalAlignment="Left"/>
+                    <Button x:Name="BuscarIdButton" Margin="5,0" Height="20" Width="30" Click="BuscarIdButton_Click"/>
+                </StackPanel>
+            </StackPanel>
+            
+            <Label Content="Fecha:" />
+            <StackPanel Orientation="Vertical">
+                <DatePicker Name="FechaDate" Height="26" Width="150"  HorizontalAlignment="Left" SelectedDate="{Binding FechaCreacion}"/>
+            </StackPanel>
+            
+            <Label Content="Descripcion: " />
+            <StackPanel>
+                <TextBox x:Name ="DescripcionTextBox" Text="{Binding Descripcion}" Width="150" HorizontalAlignment="Left"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0,5">
+                <Button x:Name="NuevoButton"  Click="NuevoButton_Click">
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="Nuevo"/>
+                    </StackPanel>
+                </Button>
+                <Button x:Name="GuardarButton" Margin="5,0" Click="GuardarButton_Click">
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="Guardar"/>
+                    </StackPanel>
+                </Button>
+                <Button x:Name="EliminarButton" Margin="5,0" Click="EliminarButton_Click">
+                    <StackPanel Orientation="Horizontal">
+                        <!--<Image Source="/Descargas/delate_40623.png"/>-->
+                        <Label Content="Eliminar"/>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button x:Name="ConsultarButton" Margin="5,0" Height="30" Width="55" HorizontalAlignment="Center" Click="ConsultarButton_Click">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Label Content="Consultar"/>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
