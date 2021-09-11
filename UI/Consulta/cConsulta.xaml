@@ -9,14 +9,14 @@
     <Grid>
         <StackPanel Orientation="Vertical" Margin="10,5,10,0">
             <StackPanel Orientation="Horizontal" Height="58">
-                <StackPanel Margin="5,0">
+                <StackPanel >
                     <Label x:Name="FiltroLabel" Content="Filtro:"/>
                     <ComboBox x:Name="FiltroComboBox" Width="100" Height="25">
                         <ComboBoxItem x:Name="RolIdComboBoxItem" Content="Listar"/>
                     </ComboBox>
                 </StackPanel>
 
-                <Button x:Name="BuscarButton" Height="30" Width="85" Margin="0,20,0,0" Click ="BuscarButton_Click_1">
+                <Button x:Name="BuscarButton" Height="30" Width="85" Margin="10,20,0,0" Click ="BuscarButton_Click_1">
                     <StackPanel Orientation="Horizontal">
                         <Label Content="Buscar"/>
                     </StackPanel>
