@@ -9,8 +9,8 @@ using RegistrarRolesWpf.DAL;
 namespace RegistrarRolesWpf.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20210909015040_RolesInicial")]
-    partial class RolesInicial
+    [Migration("20210910192503_Migracion_Inicial")]
+    partial class Migracion_Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -18,7 +18,7 @@ namespace RegistrarRolesWpf.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "5.0.9");
 
-            modelBuilder.Entity("RegistrarRolesWpf.ENTIDADES.rRoles", b =>
+            modelBuilder.Entity("RegistrarRolesWpf.ENTIDADES.Roles", b =>
                 {
                     b.Property<int>("RolId")
                         .ValueGeneratedOnAdd()

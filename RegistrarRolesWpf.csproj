@@ -19,10 +19,4 @@
     <Folder Include="DATA\" />
   </ItemGroup>
 
-  <ItemGroup>
-    <None Update="DATA\RollInicio.db">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-
 </Project>

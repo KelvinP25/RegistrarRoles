@@ -28,18 +28,12 @@ namespace RegistrarRolesWpf.UI.Consulta
         {
             var listado = new List<Roles>();
 
-            if (CriterioTextBox.Text.Trim().Length > 0)
+
+            switch (FiltroComboBox.SelectedIndex)
             {
-                switch (FiltroComboBox.SelectedIndex)
-                {
-                    case 0: //RolId
-                        listado = RolesBLL.GetRoles();
-                        break;
-                }
-            }
-            else
-            {
-                listado = RolesBLL.GetList(c => true);
+                case 0: //RolId
+                    listado = RolesBLL.GetRoles();
+                    break;
             }
 
             DatosDataGrid.ItemsSource = null;

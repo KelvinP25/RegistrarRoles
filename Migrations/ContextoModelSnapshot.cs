@@ -16,7 +16,7 @@ namespace RegistrarRolesWpf.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "5.0.9");
 
-            modelBuilder.Entity("RegistrarRolesWpf.ENTIDADES.rRoles", b =>
+            modelBuilder.Entity("RegistrarRolesWpf.ENTIDADES.Roles", b =>
                 {
                     b.Property<int>("RolId")
                         .ValueGeneratedOnAdd()

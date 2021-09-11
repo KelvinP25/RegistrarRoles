@@ -58,6 +58,5 @@ C:\Users\Asus\Documents\Programacion Aplicada I\Tarea II\Laboratorio\RegistrarRo
 C:\Users\Asus\Documents\Programacion Aplicada I\Tarea II\Laboratorio\RegistrarRolesWpf\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\Asus\Documents\Programacion Aplicada I\Tarea II\Laboratorio\RegistrarRolesWpf\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\Asus\Documents\Programacion Aplicada I\Tarea II\Laboratorio\RegistrarRolesWpf\obj\Debug\netcoreapp3.1\RegistrarRolesWpf.csproj.CopyComplete
-C:\Users\Asus\Documents\Programacion Aplicada I\Tarea II\Laboratorio\RegistrarRolesWpf\bin\Debug\netcoreapp3.1\DATA\RollInicio.db
 C:\Users\Asus\Documents\Programacion Aplicada I\Tarea II\Laboratorio\RegistrarRolesWpf\obj\Debug\netcoreapp3.1\UI\Consulta\cConsulta.g.cs
 C:\Users\Asus\Documents\Programacion Aplicada I\Tarea II\Laboratorio\RegistrarRolesWpf\obj\Debug\netcoreapp3.1\UI\Consulta\cConsulta.baml
